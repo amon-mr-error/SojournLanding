@@ -31,13 +31,13 @@ const Navbar = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex justify-between items-center">
           {/* Logo */}
-            <div className="w-2 h-2 md:w-28 md:h-12 overflow-hidden rounded-lg border-2 border-sojourn-teal">
-              <img
-                src={logo}
-                alt="SoJourn Logo"
-                className="w-full h-full object-cover transform scale-110"
-              />
-            </div>
+          <div className="w-24 h-12 md:w-40 md:h-14 overflow-hidden rounded-lg border-2 ">
+            <img
+              src={logo}
+              alt="SoJourn Logo"
+              className="w-full h-full object-cover"
+            />
+          </div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
