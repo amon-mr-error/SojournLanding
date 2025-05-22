@@ -5,6 +5,8 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Features from './sections/Features';
 import Destinations from './sections/Destinations';
+import Footer from './components/Footer';
+import Download from './sections/Download';
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
       <div className="container mx-auto px-4 md:px-6">
         <Features />
         <Destinations />
+        <Download />
+        <Footer />
       </div>
     </div>
 
